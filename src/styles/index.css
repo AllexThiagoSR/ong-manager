@@ -1,0 +1,49 @@
+.mission-vision-values-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2.5% 5%;
+}
+
+.mission-vision-values-details {
+  width: 25%;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.mission-vision-values-details p {
+  text-align: center;
+}
+
+.mission-vision-values-summary {
+  margin: 0;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.mission-vision-values-summary h4 {
+  margin: 0;
+  display: inline;
+}
+
+.mission {
+  background-color: var(--light-green);
+  color: var(--font-color);
+}
+
+.vision {
+  background-color: var(--dark-green);
+  color: var(--font-color);
+}
+
+.values {
+  background-color: var(--dirt-brown);
+  color: var(--font-color);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between                                             ;
+}

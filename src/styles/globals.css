@@ -1,0 +1,16 @@
+:root {
+  --dark-green: #2E7D32;
+  --light-green: #81C784;
+  --dirt-brown: #5D4037;
+  --main-font: "Poppins", sans-serif;
+  --font-color: white;
+  --font-color-secondary: black;
+}
+
+html {
+  font-family: var(--main-font);
+}
+
+a {
+  text-decoration: none;
+}
