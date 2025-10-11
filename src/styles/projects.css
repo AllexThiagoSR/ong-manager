@@ -2,3 +2,42 @@
   display: flex;
   justify-content: space-between                                             ;
 }
+
+.reforestation-project {
+  background-image: url("../../public/images/reforastation-project-bg.png");
+  width: fit-content;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 100px;
+  color: var(--font-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.wildlife-guardians-project {
+  background-image: url("../../public/images/wildlife-guardians-project-bg.png");
+  width: fit-content;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 100px;
+  color: var(--font-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.sustainable-education-project {
+  background-image: url("../../public/images/sustainable-education-project-bg.png");
+  width: fit-content;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 100px;
+  color: var(--font-color);
+  display: flex;
+  flex-direction: column;
+}

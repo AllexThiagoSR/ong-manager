@@ -7,6 +7,10 @@
   --font-color-secondary: black;
 }
 
+body {
+  margin: 0;
+}
+
 html {
   font-family: var(--main-font);
 }
