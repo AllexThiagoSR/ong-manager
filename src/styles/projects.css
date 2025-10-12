@@ -1,8 +1,3 @@
-.header {
-  display: flex;
-  justify-content: space-between                                             ;
-}
-
 .reforestation-project {
   background-image: url("../../public/images/reforastation-project-bg.png");
   width: fit-content;

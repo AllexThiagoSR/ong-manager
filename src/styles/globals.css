@@ -2,9 +2,16 @@
   --dark-green: #2E7D32;
   --light-green: #81C784;
   --dirt-brown: #5D4037;
-  --main-font: "Poppins", sans-serif;
   --font-color: white;
   --font-color-secondary: black;
+  --main-font: "Poppins", sans-serif;
+  --xxxlg-font-size: 64px;
+  --xxlg-font-size: 48px;
+  --xlg-font-size: 32px;
+  --lg-font-size: 25px;
+  --md-font-size: 16px;
+  --sm-font-size: 12px;
+  --tiny-font-size: 8px;
 }
 
 body {
@@ -17,4 +24,56 @@ html {
 
 a {
   text-decoration: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  background-color: var(--dirt-brown);
+  padding: 20px 3%;
+  align-items: center;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.nav-bar span {
+  text-decoration: none;
+  color: var(--font-color);
+  cursor: default;
+}
+
+.nav-bar hr {
+  margin: 0;
+  width: 1px;
+  height: 15px;
+  border: 0;
+  background-color: var(--font-color);
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.footer p {
+  font-size: var(--sm-font-size);
+  margin: 0;
+}
+
+.footer h5 {
+  font-size: var(--md-font-size);
+  margin: 15px 0;
 }
