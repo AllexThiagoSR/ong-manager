@@ -46,36 +46,6 @@
   height: 500px;
 }
 
-.volunteering {
-  padding: 0 20px;
-}
-
-.volunteering-texts {
-  display: flex;
-  flex-direction: column;
-  padding: 0 20px;
-}
-
-.volunteering-texts p {
-  margin: 5px 0;
-}
-
 .donation {
   padding: 0 20px;
-}
-
-.depoiment {
-  padding: 0 20px;
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-}
-
-.depoiment p {
-  margin: 0;
-  width: fit-content;
-}
-
-.depoiment p:nth-child(2) {
-  align-self: end;
 }
