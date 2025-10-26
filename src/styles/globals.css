@@ -84,3 +84,27 @@ a {
 .main-container {
   width: 100%;
 }
+
+.facebook-icon {
+  transition: fill 0.3s ease;
+}
+
+.facebook-icon:hover {
+  fill: #1877F2;
+}
+
+.instagram-icon {
+  transition: fill 0.4s ease;
+}
+
+.instagram-icon:hover {
+  fill: url(#insta-gradient);
+}
+
+.youtube-icon {
+  transition: fill 0.3s ease;
+}
+
+.youtube-icon:hover {
+  fill: #CD201F;
+}
