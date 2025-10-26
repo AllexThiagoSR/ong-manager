@@ -16,10 +16,13 @@
 
 body {
   margin: 0;
+  width: 100%;
 }
 
 html {
   font-family: var(--main-font);
+  margin: 0;
+  width: 100%;
 }
 
 a {
@@ -76,4 +79,8 @@ a {
 .footer h5 {
   font-size: var(--md-font-size);
   margin: 15px 0;
+}
+
+.main-container {
+  width: 100%;
 }

@@ -1,6 +1,10 @@
+.projects-main-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .reforestation-project {
   background-image: url("../../public/images/reforastation-project-bg.png");
-  width: fit-content;
   height: 100%;
   background-size: cover;
   background-position: center;
@@ -9,11 +13,11 @@
   color: var(--font-color);
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .wildlife-guardians-project {
   background-image: url("../../public/images/wildlife-guardians-project-bg.png");
-  width: fit-content;
   height: 100%;
   background-size: cover;
   background-position: center;
@@ -22,11 +26,11 @@
   color: var(--font-color);
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .sustainable-education-project {
   background-image: url("../../public/images/sustainable-education-project-bg.png");
-  width: fit-content;
   height: 100%;
   background-size: cover;
   background-position: center;
@@ -35,4 +39,43 @@
   color: var(--font-color);
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+.project:hover {
+  height: 500px;
+}
+
+.volunteering {
+  padding: 0 20px;
+}
+
+.volunteering-texts {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.volunteering-texts p {
+  margin: 5px 0;
+}
+
+.donation {
+  padding: 0 20px;
+}
+
+.depoiment {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.depoiment p {
+  margin: 0;
+  width: fit-content;
+}
+
+.depoiment p:nth-child(2) {
+  align-self: end;
 }
