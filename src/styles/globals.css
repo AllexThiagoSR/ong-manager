@@ -44,9 +44,12 @@ a {
   align-items: center;
 }
 
-.nav-bar a {
+.nav-bar button {
   text-decoration: none;
   color: var(--font-color);
+  background-color: var(--dirt-brown);
+  font-size: var(--md-font-size);
+  border: 0;
 }
 
 .nav-bar span {
