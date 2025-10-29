@@ -6,7 +6,7 @@
   <link href="../styles/globals.css" rel="stylesheet">
   <link href="../styles/signup.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-  <title>Document</title>
+  <title>Instituto Vida Verde</title>
 </head>
 <body>
   <header class="header">
@@ -51,15 +51,22 @@
       </section>
     </section>
     <form class="signup-form">
-      <label for="name">Nome completo: <input id="name" type="text"></label>
-      <label for="e-mail">Email: <input id="e-mail" type="email"></label>
-      <label for="cpf">CPF: <input id="cpf" type="text" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}"></label>
-      <label for="phone">Telefone: <input id="phone" type="tel" pattern="([0-9]){2} [0-9]{5}-[0-9]{4}"></label>
-      <label for="birth-date">Data de Nascimento: <input id="birth-date" type="date"></label>
-      <label for="address">Endereço: <input id="address" type="text"></label>
-      <label for="cep">CEP: <input id="cep" type="text" pattern="[0-9]{5}-[0-9]{3}"></label>
-      <label for="city">Cidade: <input id="city" type="text"></label>
-      <label for="state">Estado: <input id="state" type="text"></label>
+      <fieldset>
+        <legend>Informações pessoais</legend>
+        <label for="name">Nome completo: <input id="name" type="text" required></label>
+        <label for="e-mail">Email: <input id="e-mail" type="email" required></label>
+        <label for="cpf">CPF: <input required id="cpf" type="text" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}"></label>
+        <label for="phone">Telefone: <input required id="phone" type="tel" pattern="([0-9]){2} [0-9]{5}-[0-9]{4}"></label>
+        <label for="birth-date">Data de Nascimento: <input required id="birth-date" type="date"></label>
+      </fieldset>
+      <fieldset>
+        <legend>Informações de endereço</legend>
+        <label for="address">Endereço: <input id="address" type="text"></label>
+        <label for="cep">CEP: <input id="cep" type="text" pattern="[0-9]{5}-[0-9]{3}"></label>
+        <label for="city">Cidade: <input id="city" type="text"></label>
+        <label for="state">Estado: <input id="state" type="text"></label>
+      </fieldset>
+      <button type="submit">Enviar inscrição</button>
     </form>
   </main>
   <footer class="footer">

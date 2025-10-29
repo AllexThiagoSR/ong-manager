@@ -12,11 +12,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  height: 50vh;
+  height: 80vh;
   background-color: var(--light-green);
   border: 1px solid black;
   border-radius: 20px;
-  padding: 50px 10%;
+  padding: 30px 10%;
   width: 30%;
   max-width: 30%;
 }
@@ -25,6 +25,31 @@
   display: flex;
   justify-content: space-between;
   width: 70%;
+}
+
+.signup-form fieldset {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5% 2%;
+}
+
+.signup-form button {
+  border-radius: 20px;
+  padding: 15px 30px;
+  font-size: var(--md-font-size);
+  color: var(--font-color);
+  background-color: var(--dirt-brown);
+  border: 0;
+}
+
+.signup-form button:hover {
+  cursor: pointer;
 }
 
 .depoiment {
