@@ -50,12 +50,7 @@ a {
   background-color: var(--dirt-brown);
   font-size: var(--md-font-size);
   border: 0;
-}
-
-.nav-bar span {
-  text-decoration: none;
-  color: var(--font-color);
-  cursor: default;
+  cursor: pointer;
 }
 
 .nav-bar hr {
